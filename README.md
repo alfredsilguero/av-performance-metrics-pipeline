@@ -18,8 +18,18 @@ The pipeline is designed to:
 
 ## How to Run
 
-Follow these steps to set up and run the project locally:
+You have two options to run this project:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/alfredsilguero/av-performance-metrics-pipeline.git
+### Option 1: Run in Google Colab (No Installation Needed)
+[Click here to run this project in Google Colab](https://colab.research.google.com/drive/1UCg0FFqGo5ERxZpbF_EhIlYBL3_qMSAB?usp=sharing)
+
+This will open the notebook in your browser where you can execute all the code cells without installing anything on your machine.
+
+### Option 2: Run Locally (Manual Installation)
+
+1. Clone this repository: https://github.com/alfredsilguero/av-performance-metrics-pipeline.
+2. Navigate into the project folder:
+cd av-performance-metrics-pipeline
+3. Install dependencies: pip install -r requirements.txt
+4. Run the script:
+python main.py
